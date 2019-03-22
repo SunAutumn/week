@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: registry-eureka
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri:
+        - http://localhost:9010
+        - http://localhost:9011
