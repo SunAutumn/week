@@ -8,6 +8,7 @@
 
 package cn.max.week.demo;
 
+import com.codingapi.txlcn.tc.config.EnableDistributedTransaction;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -19,6 +20,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @created on 2019-03-21 11:17
  */
 @EnableEurekaClient
+@EnableDistributedTransaction
 @SpringBootApplication
 public class DemoApplication {
 
